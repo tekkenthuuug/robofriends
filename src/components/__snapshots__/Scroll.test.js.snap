@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render Scroll component and it's props.children 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid black",
+      "height": "700px",
+      "overflowY": "scroll",
+    }
+  }
+>
+  <Scroll
+    robots={
+      Array [
+        Object {
+          "email": "john@gmail.com",
+          "id": 1,
+          "name": "John Snow",
+          "username": "JohnJohn",
+        },
+        Object {
+          "email": "darek@gmail.com",
+          "id": 2,
+          "name": "Darek Snow",
+          "username": "Daks",
+        },
+      ]
+    }
+  />
+</div>
+`;
